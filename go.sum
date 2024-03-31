@@ -1,0 +1,10 @@
+github.com/rmera/gochem v0.7.0 h1:onuQLsz9VLMRWTCJSH8GpNa8RF//U8nb/FsE6aMJEmA=
+github.com/rmera/gochem v0.7.0/go.mod h1:l1YWf1VhbI38YAh1fSLRJIsdLODmjiVIaIp8fK8Nqo4=
+github.com/rmera/scu v0.2.0 h1:cicjO2l/7vppuPfi5XQVqYjYHZA+8cWkcS+5mxD7T3U=
+github.com/rmera/scu v0.2.0/go.mod h1:bud3+C6l94vgt3UEQwOd5Oo7tlcEwEojMw2G8C9jyJs=
+github.com/skelterjohn/go.matrix v0.0.0-20130517144113-daa59528eefd h1:+ZLYzP9SYC3WU9buyb9H0l9DQxqVFOCkDG8QnNBMAlA=
+github.com/skelterjohn/go.matrix v0.0.0-20130517144113-daa59528eefd/go.mod h1:x7ui0Rh4QxcWEOgIfa3cr9q4W/wyLTDdzISxBmLVeX8=
+golang.org/x/exp v0.0.0-20230321023759-10a507213a29 h1:ooxPy7fPvB4kwsA2h+iBNHkAbp/4JxTSwCmvdjEYmug=
+golang.org/x/exp v0.0.0-20230321023759-10a507213a29/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=
+gonum.org/v1/gonum v0.14.0 h1:2NiG67LD1tEH0D7kM+ps2V+fXmsAnpUeec7n8tcr4S0=
+gonum.org/v1/gonum v0.14.0/go.mod h1:AoWeoz0becf9QMWtE8iWXNXc27fK4fNeHNf/oMejGfU=
