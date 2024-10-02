@@ -36,6 +36,7 @@ import (
 	"fmt"
 	"math"
 	"math/rand"
+	"os"
 	"sort"
 	"strings"
 
@@ -272,6 +273,10 @@ func main() {
 	cieplakfile := flag.String("cieplakfile", "", "File with Cieplak's Go contacts")
 	qmfile := flag.String("qmfile", "", "File with QM contacts")
 	mustbestr := flag.String("mustbe", "", "Residues that must be in the shown paths, RESNAMERESIDCHAIN (ex. HIS192A), separated by commas")
+	flag.Usage = func() {
+		fmt.Fprintf(flag.CommandLine.Output(), "Chasqui: Allosteric pathways between 2 residues.\n Usage:\n  %s [flags] geomtry.pdb ResidueID1 ResidueID2 Chain1 Chain2 \n\nFlags:\n", os.Args[0])
+		flag.PrintDefaults()
+	}
 	flag.Parse()
 	args := flag.Args()
 	//we first prepare the system
